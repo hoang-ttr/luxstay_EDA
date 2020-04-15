@@ -8,6 +8,11 @@ verify_ssl = true
 [packages]
 requests = "*"
 mongoengine = "*"
+numpy = "*"
+pandas = "*"
+seaborn = "*"
+sklearn = "*"
+jupyter = "*"
 
 [requires]
 python_version = "3.7"
