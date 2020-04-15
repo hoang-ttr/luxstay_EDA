@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup as bs
+#from bs4 import BeautifulSoup as bs
 import time
 import random
 
@@ -36,7 +36,7 @@ for page in range(1, total_page+1, 1):
 
 print(f'Total ids: {len(apartment_ids)}')
 
-with open('apartment_ids.txt', 'w') as output:
+with open('data/apartment_ids.txt', 'w') as output:
     output.write('\n'.join((str(val) for val in apartment_ids)))
 
 print('All ids saved.')
